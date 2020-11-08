@@ -1,10 +1,21 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="ratingBarStyle">@style/Widget.AppCompat.RatingBar.Small</item>
     </style>
+
+    <style name="categoriesStyle">
+        <item name="android:background">@drawable/categories_background</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/grayColor200</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+
 
 </resources>
